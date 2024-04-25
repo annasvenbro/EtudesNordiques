@@ -1,6 +1,8 @@
 # etudesnordiques
 Dépôt contenant des scripts interrogant les catalogues de bibliothèques et les entrepôts d'archives ouvertes dans le domaine des langues et études nordiques.
 
+* 20240425_retraceur_dons.ipynb permet d'obtenir une liste de documents en fonction de leurs données de provenance pour un RCR donné, avec leur type / titre / auteur / éditeur / date, leurs données d'exemplaire, de provenance pour le RCR choisi, leurs éventuels donateurs / anciens possesseurs, et leurs cote pour le RCR choisi.
+
 * Test_API_SRU_Sudoc_langue.ipynb permet d'observer et de quantifier la présence de notices de documents pour une langue donnée dans les bibliothèques appartenant au réseau français universitaire du Sudoc. Ce script interroge l'ensemble des RCR du Sudoc grâce à l'API d'IdRef, et utilise l'encodage des langues ISO 639-2 à partir de laliste fournie par la Bibliothèque du Congrès.
 
 * Test_API_SRU_Sudoc_langue_folium.ipynb est une variation du script précédent utilisant la bibliothèque Folium. Il permet de générer des cartes zoomables, et d'obtenir des informations sur les bibliothèques présentes sur la carte (URL du catalogue, adresse mail) en cliquant sur les bibliothèques qui y figurent.
